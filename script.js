@@ -1,7 +1,7 @@
 const conatiner = document.getElementById('container')
-const colors = ['red','green','blue','white','yellow']
+const colors = ['red']
 const SQUARES = 400;
-
+// ,'green','blue','white','yellow'
 for(let i = 0; i < SQUARES; i++){
     const square = document.createElement('div')
     square.classList.add('square')
